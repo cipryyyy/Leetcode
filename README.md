@@ -13,3 +13,6 @@ _Palindrome.py_:
 _LongestCommonPrefix.py_:
   - runtime: 31ms
   - memory usage: 16.66MB
+
+_CombineTwoTables.sql_:
+  - runtime: 374ms
