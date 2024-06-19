@@ -11,5 +11,5 @@ _Palindrome.py_:
   - memory usage: 16.54MB
 
 _LongestCommonPrefix.py_:
-  - runtime: 43ms
-  - memory usage: 16.56MB
+  - runtime: 31ms
+  - memory usage: 16.66MB
