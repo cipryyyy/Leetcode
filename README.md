@@ -9,3 +9,7 @@ _TwoSums.py_:
 _Palindrome.py_:
   - runtime: 43ms
   - memory usage: 16.54MB
+
+_LongestCommonPrefix.py_:
+  - runtime: 43ms
+  - memory usage: 16.56MB
