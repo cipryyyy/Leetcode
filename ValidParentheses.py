@@ -1,27 +1,16 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
+        CtO = {")" : "(", "]" : "[", "}" : "{"}
         for c in s:
             if c in ["(", "[", "{"]:
                 stack.append(c)
-            if len(stack) != 0:
-                if c == ")":
-                    if stack[-1] == "(":
-                        stack.pop()
-                    else:
-                        return False
-                if c == "]":
-                    if stack[-1] == "[":
-                        stack.pop()
-                    else:
-                        return False
-                if c == "}":
-                    if stack[-1] == "{":
-                        stack.pop()
-                    else:
-                        return False
-            else:
-                return False
-        if len(stack) == 0:
-            return True
-        return False
+            if c in CtO.keys():
+                if len(stack) == 0:
+                    return False
+                if CtO.get(c) != stack[-1]:
+                    return False
+                stack.pop()
+        if len(stack) != 0:
+            return False
+        return True
