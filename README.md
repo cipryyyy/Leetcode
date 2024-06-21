@@ -17,6 +17,10 @@ _LongestCommonPrefix.py_:
 _ValidParentheses.py_:
   - runtime: 37ms
   - memory usage: 16.43MB
+    
+_VSearchInsert.py_:
+  - runtime: 50ms
+  - memory usage: 17.29MB
 
 _CombineTwoTables.sql_:
   - runtime: 374ms
