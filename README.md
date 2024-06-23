@@ -22,5 +22,9 @@ _VSearchInsert.py_:
   - runtime: 50ms
   - memory usage: 17.29MB
 
+_FirtsUniqueCharacter.py_:
+  - runtime: 130ms
+  - memory usage: 16.89MB
+  - 
 _CombineTwoTables.sql_:
   - runtime: 374ms
